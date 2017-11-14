@@ -1,6 +1,5 @@
 ,cn_name,en_name,unityValue
 PITE_None,无,None,ETC_None
-PITE_Shake,震动,Shake,ETC_CrossZoom
 PITE_Cube,立体翻转,Cube,ETC_Cube
 PITE_Fade,渐变,Fade,ETC_FadeToGrayscale
 PITE_Flip,翻转,Flip,ETC_Flip

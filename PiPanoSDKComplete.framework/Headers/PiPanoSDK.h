@@ -21,21 +21,6 @@ FOUNDATION_EXPORT const unsigned char PiPanoSDKVersionString[];
 #import <PiPanoSDKComplete/PiPano.h>
 #import <PiPanoSDKComplete/PiPano+Specific.h>
 
-#import <PiPanoSDKComplete/Preprocessor.h>
-#import <PiPanoSDKComplete/RegisterFeatures.h>
-
-
-#import <PiPanoSDKComplete/UnityInterface.h>
-#import <PiPanoSDKComplete/UnityForwardDecls.h>
-#import <PiPanoSDKComplete/UnityRendering.h>
-
 #import <PiPanoSDKComplete/UnityAppController.h>
 #import <PiPanoSDKComplete/RenderPluginDelegate.h>
 #import <PiPanoSDKComplete/LifeCycleListener.h>
-
-#import <PiPanoSDKComplete/UnityView.h>
-#import <PiPanoSDKComplete/GlesHelper.h>
-#import <PiPanoSDKComplete/iPhone_Sensors.h>
-
-#import <PiPanoSDKComplete/UnityViewControllerBase.h>
-#import <PiPanoSDKComplete/UnityViewControllerBaseiOS.h>

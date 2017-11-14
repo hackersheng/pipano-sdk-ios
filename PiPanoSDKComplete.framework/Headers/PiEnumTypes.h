@@ -9,7 +9,7 @@
 #ifndef PiEnumTypes_h
 #define PiEnumTypes_h
 
-typedef NS_OPTIONS(NSInteger, PIErrCode)
+typedef NS_ENUM(NSInteger, PIErrCode)
 {
     PI_SUCCESS = 0,                         // 成功
     PI_UNKNOWN_ERROR = -1,                  // 未知错误
@@ -30,7 +30,7 @@ typedef NS_OPTIONS(NSInteger, PIErrCode)
 /**
  图像输入源模式
  */
-typedef NS_OPTIONS(NSInteger, PiSourceMode)
+typedef NS_ENUM(NSInteger, PiSourceMode)
 {
     PISM_OneEye,                            //单鱼眼
     PISM_TwoEye,                            //双鱼眼
@@ -42,7 +42,7 @@ typedef NS_OPTIONS(NSInteger, PiSourceMode)
  单鱼眼镜头朝向
  需要设置这个朝向可以让单鱼眼镜头想要在VR和沉浸模式下有良好的表现，否则可能出现黑边。
  */
-typedef NS_OPTIONS(NSInteger, PiCameraDirection)
+typedef NS_ENUM(NSInteger, PiCameraDirection)
 {
     PICD_Up,                                //向上
     PICD_Down,                              //向下
@@ -52,7 +52,7 @@ typedef NS_OPTIONS(NSInteger, PiCameraDirection)
 /**
  展开模式
  */
-typedef NS_OPTIONS(NSInteger, PiViewMode)
+typedef NS_ENUM(NSInteger, PiViewMode)
 {
     //basic
     PIVM_Immerse = 0,                       //沉浸
@@ -68,8 +68,6 @@ typedef NS_OPTIONS(NSInteger, PiViewMode)
     PIVM_Cylinder,                          //圆柱
     
     //Custom
-    PIVM_PolarPlane,                        //极坐标平铺
-    PIVM_PolarCylinder,                     //极坐标圆柱
     PIVM_Nav,                               //导航
     PIVM_Mix,                               //综合
     PIVM_FallIn,                            //坠入
@@ -82,10 +80,9 @@ typedef NS_OPTIONS(NSInteger, PiViewMode)
 /**
  转场动画，付费版才有。
  */
-typedef NS_OPTIONS(NSInteger, PiTransitionEffect)
+typedef NS_ENUM(NSInteger, PiTransitionEffect)
 {
     PITE_None = -1,                         //无
-    PITE_Shake = 0,                         //震动
     PITE_Cube,                              //立体翻转
     PITE_Fade,                              //渐变
     PITE_Flip,                              //翻转
@@ -103,7 +100,7 @@ typedef NS_OPTIONS(NSInteger, PiTransitionEffect)
 /**
  滤镜，付费版才有。
  */
-typedef NS_OPTIONS(NSInteger, PiFilterMode)
+typedef NS_ENUM(NSInteger, PiFilterMode)
 {
     PIFM_None = -1,
     

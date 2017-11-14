@@ -1,0 +1,63 @@
+
+/* Class = "UIButton"; normalTitle = "暂停"; ObjectID = "8bG-kq-tpm"; */
+"8bG-kq-tpm.normalTitle" = "暂停";
+
+/* Class = "UILabel"; text = "版本:1.1.0"; ObjectID = "D3Q-Ge-oVx"; */
+"D3Q-Ge-oVx.text" = "版本:1.1.0";
+
+/* Class = "UIButton"; normalTitle = "无"; ObjectID = "EHC-Qi-Yfq"; */
+"EHC-Qi-Yfq.normalTitle" = "无";
+
+/* Class = "UIButton"; normalTitle = "打开图片"; ObjectID = "FhP-NE-MTd"; */
+"FhP-NE-MTd.normalTitle" = "打开图片";
+
+/* Class = "UIButton"; normalTitle = "播放视频"; ObjectID = "LFb-Pd-q8W"; */
+"LFb-Pd-q8W.normalTitle" = "播放视频";
+
+/* Class = "UIButton"; normalTitle = "沉浸"; ObjectID = "RbS-2W-X08"; */
+"RbS-2W-X08.normalTitle" = "沉浸";
+
+/* Class = "UIButton"; normalTitle = "双鱼眼图"; ObjectID = "SGJ-fE-tsH"; */
+"SGJ-fE-tsH.normalTitle" = "双鱼眼图";
+
+/* Class = "UIButton"; normalTitle = "返回"; ObjectID = "UqB-t5-rBV"; */
+"UqB-t5-rBV.normalTitle" = "返回";
+
+/* Class = "UIButton"; normalTitle = "Max"; ObjectID = "WKl-xg-U0B"; */
+"WKl-xg-U0B.normalTitle" = "Max";
+
+/* Class = "UIButton"; normalTitle = "无"; ObjectID = "Xwg-NM-9dR"; */
+"Xwg-NM-9dR.normalTitle" = "无";
+
+/* Class = "UIButton"; normalTitle = "打开PiPanoView"; ObjectID = "aGb-yh-aLQ"; */
+"aGb-yh-aLQ.normalTitle" = "打开PiPanoView";
+
+/* Class = "UIButton"; normalTitle = "停止视频"; ObjectID = "cT1-3z-pF3"; */
+"cT1-3z-pF3.normalTitle" = "停止视频";
+
+/* Class = "UILabel"; text = "滤镜"; ObjectID = "hZs-UE-H89"; */
+"hZs-UE-H89.text" = "滤镜";
+
+/* Class = "UIButton"; normalTitle = "单鱼眼图"; ObjectID = "i4I-da-Lsr"; */
+"i4I-da-Lsr.normalTitle" = "单鱼眼图";
+
+/* Class = "UIButton"; normalTitle = "预览镜头"; ObjectID = "iiw-8u-aqE"; */
+"iiw-8u-aqE.normalTitle" = "预览镜头";
+
+/* Class = "UILabel"; text = "展开模式"; ObjectID = "mBe-vg-uql"; */
+"mBe-vg-uql.text" = "展开模式";
+
+/* Class = "UIButton"; normalTitle = "全景2:1图"; ObjectID = "mpV-KC-dvw"; */
+"mpV-KC-dvw.normalTitle" = "全景2:1图";
+
+/* Class = "UIButton"; normalTitle = "350pt"; ObjectID = "roO-1I-bNj"; */
+"roO-1I-bNj.normalTitle" = "350pt";
+
+/* Class = "UIButton"; normalTitle = "250pt"; ObjectID = "svu-YX-PeM"; */
+"svu-YX-PeM.normalTitle" = "250pt";
+
+/* Class = "UIButton"; normalTitle = "进度+10%"; ObjectID = "x9W-x2-d7S"; */
+"x9W-x2-d7S.normalTitle" = "进度+10%";
+
+/* Class = "UILabel"; text = "转场动画"; ObjectID = "yG8-4o-23e"; */
+"yG8-4o-23e.text" = "转场动画";

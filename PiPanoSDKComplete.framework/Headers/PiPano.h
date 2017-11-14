@@ -10,9 +10,17 @@
 #define PiPano_h
 
 #import "PiEnumTypes.h"
-#include "PiDefines.h"
+#import "PiDefines.h"
 
 @interface PiPano : NSObject
+
+/**
+ 启动PiPanoSDK
+ 
+ @param argc main函数的argc
+ @param argv main函数的argv
+ */
++(void) startPiPanoSDK: (int) argc  argv: (char * _Nonnull *) argv;
 
 /**
  PiPano SDK已经准备好的block。当PiPano SDK准备好时，会调用这个block。
@@ -22,11 +30,25 @@
 +(void) onPiPanoSDKReady:(PiPanoSDKReadyBlock)onReady;
 
 /**
- 当不使用PICamera720解码时，设置已经解码过的视频流的一帧。请在获取到视频流后调用这个方法，每一帧都要调用。
+ 设置语言。目前支持简体中文(cn)和英文(en)。默认是简体中文。
+ 
+ @param language cn 或 en
+ */
++(void) setLanguage:(NSString*)language;
+
+/**
+ 当不使用PiPano解码时，设置已经解码过的视频流的一帧。请在获取到视频流后调用这个方法，每一帧都要调用。
  
  @param videoFrame 视频流中的一帧。确保视频的 kCVPixelBufferPixelFormatTypeKey 设置为 kCVPixelFormatType_420YpCbCr8BiPlanarFullRange
  */
 +(void) setVideoStreamFrame: (CVPixelBufferRef)videoFrame;
+
+/**
+ 控制是否开启高速渲染。开启了高速渲染后PiPano会以60fps渲染画面，否则以30fps渲染。默认不开启。
+ 
+ @param isOpen 是否开启
+ */
++(void) openHightSpeedRendering: (BOOL)isOpen;
 
 
 /**
@@ -146,7 +168,7 @@
 /**
  获取当前视频的播放进度。因为PICamera720SDK不能立即得到播放进度，所以需要block来获取。
  */
-+(void)getVideoProcess:(PiGetVideoProcessBlock)getProcessBlock;
++(void)getVideoProgress:(PiGetVideoProgressBlock)getProgressBlock;
 
 
 
@@ -195,6 +217,7 @@
  */
 + (NSArray *)getSourceModeDataDic;
 
+
 /**
  得到 展开模式 数据
  @param sourceMode 输入源模式
@@ -204,6 +227,8 @@
  key:@"" 对应的value是NSNumber格式的枚举值
  */
 + (NSArray *)getViewModeDataDicWithSoureceMode:(PiSourceMode)sourceMode;
+
+
 /**
  得到 滤镜模式 数据
  @return 滤镜模式数据的数组，存有单个滤镜模式的信息字典
@@ -212,6 +237,8 @@
  key:@"" 对应的value是NSNumber格式的枚举值
  */
 + (NSArray *)getfilterModeDataDic;
+
+
 /**
  得到 动画模式 字典数据
  @return 动画模式数据的数组，存有单个动画模式的信息字典

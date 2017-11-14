@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8837F1FA1FBAB532002A29C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8837F1FC1FBAB532002A29C5 /* Main.storyboard */; };
+		884D62871FA8D9AD00B99ED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884D62861FA8D9AD00B99ED3 /* AppDelegate.swift */; };
+		884D62891FA8D9AD00B99ED3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884D62881FA8D9AD00B99ED3 /* ViewController.swift */; };
+		884D628E1FA8D9AD00B99ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884D628D1FA8D9AD00B99ED3 /* Assets.xcassets */; };
+		884D62911FA8D9AD00B99ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884D628F1FA8D9AD00B99ED3 /* LaunchScreen.storyboard */; };
+		884D62A11FA8DB2E00B99ED3 /* DeviceCameraUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884D629D1FA8DB2E00B99ED3 /* DeviceCameraUtil.swift */; };
+		884D62A31FA8DB2E00B99ED3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884D629F1FA8DB2E00B99ED3 /* MainViewController.swift */; };
+		884D62A41FA8DB2E00B99ED3 /* PIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884D62A01FA8DB2E00B99ED3 /* PIViewController.swift */; };
+		884D62B71FA8DBE200B99ED3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884D62B41FA8DBE200B99ED3 /* CoreMedia.framework */; };
+		884D62B81FA8DBE200B99ED3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884D62B51FA8DBE200B99ED3 /* MediaPlayer.framework */; };
+		884D62B91FA8DBE200B99ED3 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884D62B61FA8DBE200B99ED3 /* MediaToolbox.framework */; };
+		884D62BF1FA8DC0800B99ED3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884D62BE1FA8DC0800B99ED3 /* CoreMotion.framework */; };
+		884D62C11FA8DC1300B99ED3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884D62C01FA8DC1300B99ED3 /* CoreLocation.framework */; };
+		884D62C31FA8DC1F00B99ED3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884D62C21FA8DC1F00B99ED3 /* AudioToolbox.framework */; };
+		884D62C51FA8DC2900B99ED3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884D62C41FA8DC2900B99ED3 /* AVFoundation.framework */; };
+		884D62C71FA8DC3300B99ED3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 884D62C61FA8DC3300B99ED3 /* libc++.tbd */; };
+		884D62CA1FA8DC8800B99ED3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884D62C81FA8DC8800B99ED3 /* main.swift */; };
+		8892ADBA1FA9A7D10074CFED /* PiPanoSDKComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8892ADB81FA9A7D10074CFED /* PiPanoSDKComplete.framework */; };
+		8892ADBB1FA9A7D10074CFED /* PiPanoSDKCompleteBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8892ADB91FA9A7D10074CFED /* PiPanoSDKCompleteBundle.bundle */; };
+		8892ADBF1FA9A7E10074CFED /* libAVProVideoiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8892ADBD1FA9A7E10074CFED /* libAVProVideoiOS.a */; };
+		8892ADC01FA9A7E10074CFED /* mappano.IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8892ADBE1FA9A7E10074CFED /* mappano.IOS.a */; };
+		8892ADC21FA9A7FB0074CFED /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 8892ADC11FA9A7FB0074CFED /* Data */; };
+		8892ADC41FA9A80A0074CFED /* testRes in Resources */ = {isa = PBXBuildFile; fileRef = 8892ADC31FA9A80A0074CFED /* testRes */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8837F1FB1FBAB532002A29C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8837F1FE1FBAB536002A29C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		8837F1FF1FBAB54B002A29C5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		884D62831FA8D9AD00B99ED3 /* PiPanoDevelopDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiPanoDevelopDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		884D62861FA8D9AD00B99ED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		884D62881FA8D9AD00B99ED3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		884D628D1FA8D9AD00B99ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		884D62901FA8D9AD00B99ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		884D62921FA8D9AD00B99ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884D629D1FA8DB2E00B99ED3 /* DeviceCameraUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceCameraUtil.swift; sourceTree = "<group>"; };
+		884D629F1FA8DB2E00B99ED3 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		884D62A01FA8DB2E00B99ED3 /* PIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PIViewController.swift; sourceTree = "<group>"; };
+		884D62B41FA8DBE200B99ED3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		884D62B51FA8DBE200B99ED3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		884D62B61FA8DBE200B99ED3 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		884D62BE1FA8DC0800B99ED3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		884D62C01FA8DC1300B99ED3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		884D62C21FA8DC1F00B99ED3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		884D62C41FA8DC2900B99ED3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		884D62C61FA8DC3300B99ED3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		884D62C81FA8DC8800B99ED3 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		884D62C91FA8DC8800B99ED3 /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		8892ADB81FA9A7D10074CFED /* PiPanoSDKComplete.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PiPanoSDKComplete.framework; path = ../../PiPanoSDKComplete.framework; sourceTree = "<group>"; };
+		8892ADB91FA9A7D10074CFED /* PiPanoSDKCompleteBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PiPanoSDKCompleteBundle.bundle; path = ../../PiPanoSDKCompleteBundle.bundle; sourceTree = "<group>"; };
+		8892ADBD1FA9A7E10074CFED /* libAVProVideoiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAVProVideoiOS.a; sourceTree = "<group>"; };
+		8892ADBE1FA9A7E10074CFED /* mappano.IOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = mappano.IOS.a; sourceTree = "<group>"; };
+		8892ADC11FA9A7FB0074CFED /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Data; path = ../../Data; sourceTree = "<group>"; };
+		8892ADC31FA9A80A0074CFED /* testRes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = testRes; path = ../testRes; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		884D62801FA8D9AD00B99ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8892ADBA1FA9A7D10074CFED /* PiPanoSDKComplete.framework in Frameworks */,
+				884D62C71FA8DC3300B99ED3 /* libc++.tbd in Frameworks */,
+				884D62C51FA8DC2900B99ED3 /* AVFoundation.framework in Frameworks */,
+				884D62C31FA8DC1F00B99ED3 /* AudioToolbox.framework in Frameworks */,
+				884D62C11FA8DC1300B99ED3 /* CoreLocation.framework in Frameworks */,
+				884D62BF1FA8DC0800B99ED3 /* CoreMotion.framework in Frameworks */,
+				8892ADC01FA9A7E10074CFED /* mappano.IOS.a in Frameworks */,
+				884D62B71FA8DBE200B99ED3 /* CoreMedia.framework in Frameworks */,
+				884D62B81FA8DBE200B99ED3 /* MediaPlayer.framework in Frameworks */,
+				8892ADBF1FA9A7E10074CFED /* libAVProVideoiOS.a in Frameworks */,
+				884D62B91FA8DBE200B99ED3 /* MediaToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		884D627A1FA8D9AD00B99ED3 = {
+			isa = PBXGroup;
+			children = (
+				8892ADC11FA9A7FB0074CFED /* Data */,
+				8892ADC31FA9A80A0074CFED /* testRes */,
+				884D629C1FA8DB2E00B99ED3 /* Examples files */,
+				884D62851FA8D9AD00B99ED3 /* PiPanoDevelopDemo */,
+				8892ADBC1FA9A7E10074CFED /* Libraries */,
+				884D62841FA8D9AD00B99ED3 /* Products */,
+				884D62B31FA8DBE100B99ED3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		884D62841FA8D9AD00B99ED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				884D62831FA8D9AD00B99ED3 /* PiPanoDevelopDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		884D62851FA8D9AD00B99ED3 /* PiPanoDevelopDemo */ = {
+			isa = PBXGroup;
+			children = (
+				884D62C81FA8DC8800B99ED3 /* main.swift */,
+				884D62C91FA8DC8800B99ED3 /* Swift-Bridging-Header.h */,
+				884D62861FA8D9AD00B99ED3 /* AppDelegate.swift */,
+				884D62881FA8D9AD00B99ED3 /* ViewController.swift */,
+				884D628D1FA8D9AD00B99ED3 /* Assets.xcassets */,
+				884D628F1FA8D9AD00B99ED3 /* LaunchScreen.storyboard */,
+				884D62921FA8D9AD00B99ED3 /* Info.plist */,
+			);
+			path = PiPanoDevelopDemo;
+			sourceTree = "<group>";
+		};
+		884D629C1FA8DB2E00B99ED3 /* Examples files */ = {
+			isa = PBXGroup;
+			children = (
+				8837F1FC1FBAB532002A29C5 /* Main.storyboard */,
+				884D629F1FA8DB2E00B99ED3 /* MainViewController.swift */,
+				884D62A01FA8DB2E00B99ED3 /* PIViewController.swift */,
+				884D629D1FA8DB2E00B99ED3 /* DeviceCameraUtil.swift */,
+			);
+			path = "Examples files";
+			sourceTree = "<group>";
+		};
+		884D62B31FA8DBE100B99ED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8892ADB81FA9A7D10074CFED /* PiPanoSDKComplete.framework */,
+				8892ADB91FA9A7D10074CFED /* PiPanoSDKCompleteBundle.bundle */,
+				884D62C41FA8DC2900B99ED3 /* AVFoundation.framework */,
+				884D62C21FA8DC1F00B99ED3 /* AudioToolbox.framework */,
+				884D62C01FA8DC1300B99ED3 /* CoreLocation.framework */,
+				884D62BE1FA8DC0800B99ED3 /* CoreMotion.framework */,
+				884D62B41FA8DBE200B99ED3 /* CoreMedia.framework */,
+				884D62B51FA8DBE200B99ED3 /* MediaPlayer.framework */,
+				884D62B61FA8DBE200B99ED3 /* MediaToolbox.framework */,
+				884D62C61FA8DC3300B99ED3 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8892ADBC1FA9A7E10074CFED /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8892ADBD1FA9A7E10074CFED /* libAVProVideoiOS.a */,
+				8892ADBE1FA9A7E10074CFED /* mappano.IOS.a */,
+			);
+			name = Libraries;
+			path = ../../Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		884D62821FA8D9AD00B99ED3 /* PiPanoDevelopDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884D62951FA8D9AD00B99ED3 /* Build configuration list for PBXNativeTarget "PiPanoDevelopDemo" */;
+			buildPhases = (
+				884D627F1FA8D9AD00B99ED3 /* Sources */,
+				884D62801FA8D9AD00B99ED3 /* Frameworks */,
+				884D62811FA8D9AD00B99ED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiPanoDevelopDemo;
+			productName = PiPanoDevelopDemo;
+			productReference = 884D62831FA8D9AD00B99ED3 /* PiPanoDevelopDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		884D627B1FA8D9AD00B99ED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					884D62821FA8D9AD00B99ED3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = V4CQGCJ22W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 884D627E1FA8D9AD00B99ED3 /* Build configuration list for PBXProject "PiPanoDevelopDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 884D627A1FA8D9AD00B99ED3;
+			productRefGroup = 884D62841FA8D9AD00B99ED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				884D62821FA8D9AD00B99ED3 /* PiPanoDevelopDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		884D62811FA8D9AD00B99ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884D62911FA8D9AD00B99ED3 /* LaunchScreen.storyboard in Resources */,
+				8837F1FA1FBAB532002A29C5 /* Main.storyboard in Resources */,
+				8892ADC21FA9A7FB0074CFED /* Data in Resources */,
+				8892ADC41FA9A80A0074CFED /* testRes in Resources */,
+				8892ADBB1FA9A7D10074CFED /* PiPanoSDKCompleteBundle.bundle in Resources */,
+				884D628E1FA8D9AD00B99ED3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		884D627F1FA8D9AD00B99ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884D62891FA8D9AD00B99ED3 /* ViewController.swift in Sources */,
+				884D62A41FA8DB2E00B99ED3 /* PIViewController.swift in Sources */,
+				884D62CA1FA8DC8800B99ED3 /* main.swift in Sources */,
+				884D62A11FA8DB2E00B99ED3 /* DeviceCameraUtil.swift in Sources */,
+				884D62871FA8D9AD00B99ED3 /* AppDelegate.swift in Sources */,
+				884D62A31FA8DB2E00B99ED3 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8837F1FC1FBAB532002A29C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8837F1FB1FBAB532002A29C5 /* Base */,
+				8837F1FE1FBAB536002A29C5 /* en */,
+				8837F1FF1FBAB54B002A29C5 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		884D628F1FA8D9AD00B99ED3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884D62901FA8D9AD00B99ED3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		884D62931FA8D9AD00B99ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		884D62941FA8D9AD00B99ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		884D62961FA8D9AD00B99ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V4CQGCJ22W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					../../,
+				);
+				INFOPLIST_FILE = PiPanoDevelopDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../../Libraries,
+					"$(PROJECT_DIR)/Libraries",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					../../PiPanoSDKComplete.framework/PiPanoSDKComplete,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pi.complete-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PRODUCT_NAME)/Swift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		884D62971FA8D9AD00B99ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V4CQGCJ22W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					../../,
+				);
+				INFOPLIST_FILE = PiPanoDevelopDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../../Libraries,
+					"$(PROJECT_DIR)/Libraries",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					../../PiPanoSDKComplete.framework/PiPanoSDKComplete,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pi.complete-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PRODUCT_NAME)/Swift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		884D627E1FA8D9AD00B99ED3 /* Build configuration list for PBXProject "PiPanoDevelopDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884D62931FA8D9AD00B99ED3 /* Debug */,
+				884D62941FA8D9AD00B99ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884D62951FA8D9AD00B99ED3 /* Build configuration list for PBXNativeTarget "PiPanoDevelopDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884D62961FA8D9AD00B99ED3 /* Debug */,
+				884D62971FA8D9AD00B99ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 884D627B1FA8D9AD00B99ED3 /* Project object */;
+}

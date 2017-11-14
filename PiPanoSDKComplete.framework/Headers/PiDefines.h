@@ -11,7 +11,7 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void (^PiGetVideoProcessBlock)(float);
+typedef void (^PiGetVideoProgressBlock)(float);
 typedef void (^PiPanoSDKReadyBlock)();
 
 #endif /* PiDefines_h */

@@ -17,9 +17,13 @@ PiPanoSDK is a set of software development kits designed to process panoramic im
 
 5.Support a set of transition animations: Flip, Fade, Gate, Circle, Fold , etc ;
 
-![沉浸](ReadmeImages/沉浸.gif) ![小行星](ReadmeImages/小行星.gif)
+![沉浸](ReadmeImages/沉浸.gif)                                   ![小行星](ReadmeImages/小行星.gif)
 
-![综合](ReadmeImages/综合.gif) ![坠入](ReadmeImages/坠入.gif)
+
+
+
+
+![综合](ReadmeImages/综合.gif)                                  ![坠入](ReadmeImages/坠入.gif)
 
 
 

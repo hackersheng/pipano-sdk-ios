@@ -11,9 +11,13 @@ PiPanoSDK 是一套用于处理全景图像的开发工具包，包含以下功�
 4. 支持多种滤镜效果：锐化、木炭笔、轮廓、蓝莓、像素化等；
 5. 支持多种过场动画：翻转、渐变、开门、光圈、折叠等；
 
-![沉浸](ReadmeImages/沉浸.gif) ![小行星](ReadmeImages/小行星.gif)
+![沉浸](ReadmeImages/沉浸.gif)                                   ![小行星](ReadmeImages/小行星.gif)
 
-![综合](ReadmeImages/综合.gif) ![坠入](ReadmeImages/坠入.gif)
+
+
+
+
+![综合](ReadmeImages/综合.gif)                                  ![坠入](ReadmeImages/坠入.gif)
 
 
 
